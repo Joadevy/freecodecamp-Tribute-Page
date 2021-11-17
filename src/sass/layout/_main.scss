@@ -1,0 +1,47 @@
+#main {
+    margin-top: 3rem;
+
+    #img-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .7rem;
+        margin-bottom: 5rem;
+
+        #image {
+            width: 70%;
+        }
+
+        #img-caption{
+            opacity: .85;
+        }
+    }
+
+    .timeline-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 3rem;
+        
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            width: 75%;
+            gap: .8rem;
+
+             li {
+                span {
+                    font-weight: bolder;
+                }
+             }
+        }
+
+        .phrase-container {
+            width: 75%;
+            opacity: .75;
+        }
+    
+    }
+}

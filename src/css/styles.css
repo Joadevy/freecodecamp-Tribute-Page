@@ -25,8 +25,20 @@ h2 {
   font-size: 1.5rem;
 }
 
+#img-caption {
+  font-size: 1.2rem;
+}
+
+.timeline-container ul li {
+  font-size: 1.2rem;
+}
+
 .phrase, .phrase-attribution {
   font-family: "Architects Daughter", sans-serif;
+}
+
+footer nav {
+  font-size: 1.5rem;
 }
 
 header {
@@ -41,6 +53,53 @@ header {
 
 #tribute-info {
   opacity: 0.8;
+}
+
+#main {
+  margin-top: 3rem;
+}
+#main #img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 5rem;
+}
+#main #img-div #image {
+  width: 70%;
+}
+#main #img-div #img-caption {
+  opacity: 0.85;
+}
+#main .timeline-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+#main .timeline-container ul {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  gap: 0.8rem;
+}
+#main .timeline-container ul li span {
+  font-weight: bolder;
+}
+#main .timeline-container .phrase-container {
+  width: 75%;
+  opacity: 0.75;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+footer nav {
+  opacity: 0.9;
 }
 
 .sr-only {
