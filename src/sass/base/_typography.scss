@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+// tittle & subtitle with Open Sans Condensed 700 & 300.
+// Galileo's phrase with Architects Daughter only 400.
+
+
+h1, h2{
+    font-family: 'Open Sans Condensed';
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+#tribute-info {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.phrase, .phrase-attribution{
+    font-family: 'Architects Daughter', sans-serif;
+}
