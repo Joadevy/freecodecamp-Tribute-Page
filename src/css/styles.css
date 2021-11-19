@@ -66,7 +66,7 @@ header {
   margin-bottom: 5rem;
 }
 #main #img-div #image {
-  width: 70%;
+  max-width: 100%;
 }
 #main #img-div #img-caption {
   opacity: 0.85;
