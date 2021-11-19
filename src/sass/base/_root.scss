@@ -1,9 +1,15 @@
-// Agregar google fonts & demás y comenzar a codear!
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-size:100%;
+}
+
+// color custom properties
+
+:root {
+    --bg-page-color: #f6eda1;
+    --font-color: #262007;
+    --third-pink: #ff1da5;
 }
 

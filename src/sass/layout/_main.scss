@@ -5,11 +5,18 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: .7rem;
+        gap: 1rem;
         margin-bottom: 5rem;
 
         #image {
            max-width: 100%;
+           border-radius: 50px;
+           cursor: pointer;
+           transition: transform 1.2s;
+
+           &:hover {
+                transform: scale(1.05);
+           }
         }
 
         #img-caption{

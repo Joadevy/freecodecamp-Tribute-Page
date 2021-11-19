@@ -1,12 +1,19 @@
 
 header {
-    margin: .5rem;
     padding: 3rem;
-    background-color: gainsboro;
+    background:linear-gradient(180deg, rgba(244,233,153,1) 0%, rgba(241,223,130,1) 39%, rgba(239,217,116,1) 65%, #f6eda1 95%);
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
     align-items: center;
+
+    h1 {
+        background-color: inherit;
+    }
+
+    p {
+        background-color: inherit;
+    }
 }
 
 #tribute-info {
