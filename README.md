@@ -1,4 +1,4 @@
-**Welcome everybody to my little project for the Responsive Web Design certification from freecodecamp.👋**
+**Welcome everybody to my little project for the Responsive Web Design certification from freecodecamp 👋**
 
 ## Live site 🚀
 - Live Site URL: [https://joadevy.github.io/freecodecamp-Tribute-Page/]
